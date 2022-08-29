@@ -1,7 +1,7 @@
 # docker-curl
 Description
 ---
-Container to create traffic to a service.
+Container to generate traffic to a service.
 
 How to use it
 ---
@@ -24,7 +24,7 @@ spec:
       restartPolicy: Never
       containers:
       - image: bdamian/docker-curl:1.0.1
-        name: demo-htpps
+        name: docker-curl
         env:
         - name: REQUESTS_COUNT
           value: "100"
